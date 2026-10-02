@@ -25,10 +25,9 @@
         </button>
         <a
           class="portal-trustline-link"
-          href="https://github.com/Azure-Samples/azure-finops-agent"
-          target="_blank"
-          rel="noopener"
-          title="View source on GitHub"
+          href="/"
+          @click.prevent="newSession"
+          title="Home"
         >
           <svg
             width="12"
